@@ -1,7 +1,13 @@
 'use strict' /* использование последней  версии  js  */;
 
 const findBestEmployee = function (employees) {
-  let max = 0;
+  //let sum = 0;
+  //for(const salary of Object.values(employees)){             операция подщета, в задании сказано  вывисти имя
+  //  sum += salary;
+ // }
+ // return sum;
+
+ let max = 0;
   let namee;
 
   const key = Object.keys(employees);
